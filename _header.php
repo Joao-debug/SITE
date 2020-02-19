@@ -2,9 +2,9 @@
 
 // Tratamento do título da página
 if ($titulo == "") {
-    $titulo = "Sem Nome - O melhor de todos.";
+    $titulo = "Rede TV";
 } else {
-    $titulo = "{$titulo} - Sem Nome";
+    $titulo = "{$titulo} - Rede TV";
 }
 
 // Tratamento do CSS da página
@@ -28,7 +28,7 @@ if ($js != "") {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?php echo $titulo ?></title>
-    <link rel="shortcut icon" href="/img/logo03.png">
+    <link rel="shortcut icon" href="/img/redetv.jfif">
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/all.min.css">
     <?php echo $css ?>
@@ -39,18 +39,17 @@ if ($js != "") {
 <div class="wrap">
 
     <header class="header">
-        <a href="/" title="Rede TV - Melhor Site de noticias"><img src="img/redetv.jfif" alt=""></a>
+        <a href="login.php" title="Rede TV - Melhor Site de noticias"><img src="img/redetv.jfif" alt=""></a>
         <h1>Rede TV News<small>Melhor site de noticias.</small></h1>
     </header>
 
     <nav class="nav">
-        <a href="/"><i class="fas fa-fw fa-home"></i></a>
+        <a href="login.php"><i class="fas fa-fw fa-home"></i></a>
         <div id="menulinks">
             <a <?php echo ( $menu == 'artigos' ) ? 'class="active"' : null ?> href="/artigos.php"><i class="fas fa-fw fa-pen-nib"></i> Artigos</a>
             <a <?php echo ( $menu == 'noticias' ) ? 'class="active"' : null ?> href="/noticias.php"><i class="fas fa-fw fa-newspaper"></i> Notícias</a>
             <a <?php echo ( $menu == 'contatos' ) ? 'class="active"' : null ?> href="/contatos.php"><i class="fas fa-fw fa-mail-bulk"></i> Contatos</a>
             <a <?php echo ( $menu == 'sobre' ) ? 'class="active"' : null ?> href="/sobre.php"><i class="fas fa-fw fa-info-circle"></i> Sobre</a>
-            <a <?php echo ( $menu == 'login') ? 'class="active"' : null ?> href="/login.php"><i class="fas fa-sign-in-alt"></i> Login</a> 
             
         </div>
 

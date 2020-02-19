@@ -80,10 +80,10 @@ require ('_header.php');
 <div class="col3">
     <h2>Login Admin</h2>
 <p>
-    <label for="email">E-mail</label>
+    <label for="email">E-mail:</label>
     <input type="text" name="email" placeholder="nome@provedor.com" value="<?php echo $email?>">
 </p>
-    <label for="senha">Senha</label>
+    <label for="senha">Senha:</label>
     <input type="text" name="senha" placeholder="Coloque sua senha" value="<?php echo $senha ?>">
 </p>
 <p>

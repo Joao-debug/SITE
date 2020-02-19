@@ -38,9 +38,9 @@ require ('_header.php');
 <p>A Rede Tv se compromete completamente em trazer informações totalmente veridicas e que vá acrescentar em sua vida</p>
 <p>Se busca noticias, entretenimento e outros ramos jornalisticos, veio ao lugar certo</p>
 <p>Seja bem vindo e embarque nessa aventura conosco.</p> 
-<img class="responsiva" src="img/redetv.jfif" alt="Rede Tv">
-<p> Se divirta e se informe, somos um site de noticias dedicado em trazer a verdade a tona.</p>
+<p>Se divirta e se informe, somos um site de noticias dedicado em trazer a verdade a tona.</p>
 <p>Faça seu cadastro e seja abraçado pela nossa comunidade</p>
+<div class="img"><img class="responsiva" src="img/redetv.jfif" alt="Rede Tv"></div>
 <?php
 
 // Inclui o rodapé do template

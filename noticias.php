@@ -41,10 +41,11 @@ $noticias .=  <<<TEXTO
 
     <div class="noticias">
         <h3>{$noti['titulo_noticia']}</h3>
-        <small>Por: <a>{$noti['nome_tela']}</a></small>
+    <div class="small">    <small>Por:<a>{$noti['nome_tela']}</a></small></div>
         <hr>
         <p>{$noti['resumo_noticia']}</p>
-        <a href="{$noti['texto_noticia']}"><p>Leia mais...</p></a>
+        <a href="{$noti['texto_noticia']}"></a>
+        <hr/>
     </div>
 TEXTO;
 

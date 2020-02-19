@@ -5,9 +5,9 @@
 </main>
 
 <footer class="footer">
-    <a href="/" title="Página inicial"><i class="fas fa-fw fa-home"></i></a>
+    <a href="login.php" title="Página inicial"><i class="fas fa-fw fa-home"></i></a>
     <div>
-        <span title="&copy; Copyright 2020 André Luferat"><i class="far fa-copyright"></i> 2020 André Luferat</span title="&copy; Copyright 2020 André Luferat">
+        <span title="&copy; Copyright 2020 João Marcelo"><i class="far fa-copyright"></i> 2020 João Marcelo</span title="&copy; Copyright 2020 João Marcelo">
         <div>
             <a href="/contatos.php">Contatos</a>
             &nbsp;&bull;&nbsp;
