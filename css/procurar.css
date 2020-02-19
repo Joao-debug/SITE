@@ -1,0 +1,98 @@
+.row {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.col2 form, .col2 label {
+    display: block;
+}
+.col2 label {
+    margin-bottom: .3rem;
+}
+.col2 input, .col2 textarea, .col2 button {
+    font-size: inherit;
+    font-family: inherit;
+    border: 1px solid rgb(185, 185, 185);
+    padding: .3rem .3rem;
+    border-radius: .3rem;
+}
+.col2 input, .col2 textarea {
+    width: 100%;
+}
+.col2 textarea {
+    height: 6rem;
+    resize: vertical;
+    overflow: auto;
+}
+.col2 button {
+    background: linear-gradient(rgb(142, 181, 212), rgb(28, 78, 119));
+    color: white;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.col1 form, .col1 label {
+    display: block;
+}
+.col1 label {
+    margin-bottom: .3rem;
+}
+.col1 input, .col1 textarea, .col1 button {
+    font-size: inherit;
+    font-family: inherit;
+    border: 1px solid rgb(185, 185, 185);
+    padding: .3rem .3rem;
+    border-radius: .3rem;
+}
+.col1 input, .col1 textarea {
+    width: 80%;
+}
+.col1 textarea {
+    height: 6rem;
+    resize: vertical;
+    overflow: auto;
+}
+.col1 button {
+    background: linear-gradient(rgb(142, 181, 212), rgb(28, 78, 119));
+    color: white;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+/* Mensagens de Erro */
+.msgErro {
+    display: table;
+    margin: auto;
+    padding: 0 1rem;
+    background: #ffffcc;
+    color: maroon;
+    border: 1px dotted #ff0000;
+    border-radius: .3rem;
+}
+
+/* Mensagem de agradecimento */
+.msgOk {
+    display: table;
+    margin: auto;
+}
+.msgOk p:not(:last-child) {
+    margin-left: 1rem;
+}
+
+/* Página responsiva em resoluções maiores que 640px */
+@media (min-width: 640px) {
+    .row {
+        flex-direction: row;
+    }
+    .col1 {
+        flex-grow: 1;
+        padding-right: 1rem;
+    }
+    .col2 {
+        width: 325px;
+        padding-left: 1rem;
+        border: 0;
+        margin: 0;
+        border-left: 4px dotted green;
+    }
+}

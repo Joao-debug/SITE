@@ -1,0 +1,154 @@
+.row {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.col2 {
+    width: 100%;
+    border-top: 3px dotted rgb(32, 18, 151);
+    margin-top: 2rem;
+}
+.col2 p {
+    text-align: left;
+}
+.col2 {
+    list-style: none;
+    /* padding: 0; */
+    font-size: inherit;
+    line-height: 1.3;
+}
+.col2 img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    max-width: 400px;
+}
+
+.col1 form, .col1 label {
+    display: block;
+}
+.col1 label {
+    margin-bottom: .3rem;
+}
+.col1 input, .col1 textarea, .col1 button {
+    font-size: inherit;
+    font-family: inherit;
+    border: 1.5px solid rgb(56, 1, 255);
+    padding: .3rem .3rem;
+    border-radius: .2rem;
+}
+.col1 input, .col1 textarea {
+    width: 100%;
+}
+.col1 textarea {
+    height: 6rem;
+    resize: vertical;
+    overflow: auto;
+}
+.col1 button {
+    background: linear-gradient(rgb(142, 181, 212), rgb(28, 78, 119));
+    color: white;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+/* Mensagens de Erro */
+.msgErro {
+    display: table;
+    margin: auto;
+    padding: 0 1rem;
+    background: #ffffcc;
+    color: maroon;
+    border: 1px dotted #ff0000;
+    border-radius: .3rem;
+}
+
+/* Mensagem de agradecimento */
+.msgOk {
+    display: table;
+    margin: auto;
+}
+.msgOk p:not(:last-child) {
+    margin-left: 1rem;
+}
+
+/* Página responsiva em resoluções maiores que 640px */
+@media (min-width: 640px) {
+    .row {
+        flex-direction: row;
+    }
+    .col1 {
+        flex-grow: 1;
+        padding-right: 1rem;
+    }
+    .col2 {
+        width: 250px;
+        padding-left: 1rem;
+        border: 0;
+        margin: 0;
+        border-left: 3px dotted rgb(30, 32, 172);
+    }
+}
+.col2 button {
+    background: linear-gradient(rgb(142, 181, 212), rgb(28, 78, 119));
+    color: white;
+    padding-right: 2rem;
+    padding-left: 1rem;
+}
+.col2 input, .col2 textarea, .col2 button {
+    font-size: inherit;
+    font-family: inherit;
+    border: 1.5px solid rgb(55, 0, 255);
+    padding: .3rem .3rem;
+    border-radius: .2rem;
+}
+.col2 textarea {
+    height: 3rem;
+    resize: vertical;
+    overflow: auto;
+}
+
+.col2 input, .col2 textarea {
+    width: 100%;
+}
+
+/* Coluna 3 */
+
+.col3 {
+    width: 100%;
+    border-top: 3px dotted rgb(27, 25, 145);
+    margin-top: 2rem;
+}
+.col3 p {
+    text-align: left;
+}
+.col3 {
+    list-style: none;
+    /* padding: 0; */
+    font-size: inherit;
+    line-height: 1.3;
+}
+.col3 button {
+    background: linear-gradient(rgb(142, 181, 212), rgb(28, 78, 119));
+    color: white;
+    padding-right: 2rem;
+    padding-left: 1rem;
+}
+.col3 input, .col3 textarea, .col3 button {
+    font-size: inherit;
+    font-family: inherit;
+    border: 1.5px solid rgb(47, 0, 255);
+    padding: .3rem .3rem;
+    border-radius: .2rem;
+}
+.col3 textarea {
+    height: 3rem;
+    resize: vertical;
+    overflow: auto;
+}
+
+.col3 input, .col3 textarea {
+    width: 20%;
+}
+
+
